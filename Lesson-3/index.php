@@ -1,4 +1,4 @@
-<?php require __DIR__ . ('/header.php'); ?>
+<?php require __DIR__ . '/header.php'; ?>
 
 <!-- Задание №1 -->
 
@@ -53,7 +53,7 @@
 
 <!-- Задание №2 -->
 
-<?php require __DIR__ . ('/array.php'); ?>
+<?php require __DIR__ . '/array.php'; ?>
 
 <h5><b>Задание №2.</b> Фотогалерея</h5><br>
 

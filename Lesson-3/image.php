@@ -1,6 +1,6 @@
 <?php
-    require __DIR__ . ('/header.php');
-    require __DIR__ . ('/array.php');
+    require __DIR__ . '/header.php';
+    require __DIR__ . '/array.php';
     $id = $img[$_GET['id']];
 ?>
 
