@@ -10,10 +10,10 @@
         $first = $_GET['first'];
         $second = $_GET['second'];
     } else {
-        $first = '';
-        $second = '';
+        $first = null;
+        $second = null;
     }
-    if (isset($_GET['symbol'])) {
+    if (isset($_GET['symbol']) && is_numeric($_GET['first']) && is_numeric($_GET['second'])) {
     $symbol = $_GET['symbol'];
         switch ($symbol) {
             case '+':
@@ -36,8 +36,8 @@
                 $result = null;
         }
     } else {
-        $symbol = '';
-        $result = '';
+        $symbol = null;
+        $result = null;
     }
 ?>
 <form action="/index.php" method="get">
